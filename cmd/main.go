@@ -9,6 +9,7 @@ import (
 	"github.com/soppibb/practica-go-web/cmd/server/handler"
 	"github.com/soppibb/practica-go-web/cmd/server/middleware"
 	"github.com/soppibb/practica-go-web/internal/product"
+	"github.com/soppibb/practica-go-web/pkg/store"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

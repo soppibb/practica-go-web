@@ -10,6 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/soppibb/practica-go-web/internal/domain"
 	"github.com/soppibb/practica-go-web/internal/product"
+	"github.com/soppibb/practica-go-web/pkg/web"
 )
 
 var (

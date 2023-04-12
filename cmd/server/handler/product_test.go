@@ -12,6 +12,8 @@ import (
 	"github.com/soppibb/practica-go-web/cmd/server/middleware"
 	"github.com/soppibb/practica-go-web/internal/domain"
 	"github.com/soppibb/practica-go-web/internal/product"
+	"github.com/soppibb/practica-go-web/pkg/store"
+	"github.com/soppibb/practica-go-web/pkg/web"
 	"github.com/stretchr/testify/assert"
 )
 
