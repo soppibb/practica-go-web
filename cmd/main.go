@@ -6,7 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"github.com/soppibb/practica-go-web/cmd/docs"
+	"github.com/soppibb/practica-go-web/cmd/server/handler"
 	"github.com/soppibb/practica-go-web/cmd/server/middleware"
+	"github.com/soppibb/practica-go-web/internal/product"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
